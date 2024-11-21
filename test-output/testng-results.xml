@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Swiggy is launched]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-19T19:02:29 IST" name="groupSuite" finished-at="2024-11-19T19:02:34 IST" duration-ms="5487">
+    <groups>
+      <group name="System">
+        <method signature="swiggy.Swiggy()[pri:0, instance:TestNgExecute.swiggy@a514af7]" name="Swiggy" class="TestNgExecute.swiggy"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2024-11-19T19:02:29 IST" name="Test" finished-at="2024-11-19T19:02:34 IST" duration-ms="5487">
+      <class name="TestNgExecute.swiggy">
+        <test-method signature="Swiggy()[pri:0, instance:TestNgExecute.swiggy@a514af7]" started-at="2024-11-19T19:02:29 IST" name="Swiggy" finished-at="2024-11-19T19:02:34 IST" duration-ms="5464" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Swiggy is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Swiggy -->
+      </class> <!-- TestNgExecute.swiggy -->
+    </test> <!-- Test -->
+  </suite> <!-- groupSuite -->
+</testng-results>

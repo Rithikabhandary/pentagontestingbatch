@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parallelSuite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="TestNgExecute.dominos"/>
+      <class name="TestNgExecute.swiggy"/>
+      <class name="TestNgExecute.kfc"/>
+      <class name="TestNgExecute.olafood"/>
+      <class name="TestNgExecute.Zomato"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- parallelSuite -->
